@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://nipun4338.github.io">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi+👋!;I+am+Nipun!;...Visit:+nipun4338.github.io...!&center=true&size=25">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi+👋!;I+am+Nipun!;..Visit:+nipun4338.github.io...!&center=true&size=25">
   </a>
 </h1>
 
