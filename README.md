@@ -1,4 +1,7 @@
-<h1 align="center">[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Hi+👋!;I+am+Nipun!;Visit:+nipun4338.github.io)](https://nipun4338.github.io)
+<h1 align="center">
+  <a href="https://nipun4338.github.io">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi+👋!;I+am+Nipun!;Visit:+nipun4338.github.io&center=true&size=30">
+  </a>
 </h1>
 
 <!--
