@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning Machine Learning 🤖 and Imporving Python 🐍🐍
 
-- 👯 I’m looking to collaborate on Machine Learning 👷 and Data Science 🌎🌎
+- 👯 Looking to collaborate on Machine Learning 👷 and Data Science 🌎🌎
 <!--
 **Nipun4338/Nipun4338** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
