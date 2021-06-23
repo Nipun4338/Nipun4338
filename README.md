@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# <h1><details>
+<h1><details>
   <summary>Stats? 🚀🚀</summary>
   <div align="center">
 <img src="https://metrics.lecoq.io/Nipun4338?template=classic&isocalendar=1&languages=1&gists=1&followup=1&achievements=1&notable=1&pagespeed=1&isocalendar.duration=half-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.recent.load=300&languages.recent.days=14&followup.sections=repositories&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&notable.repositories=false&pagespeed.url=.user.website&pagespeed.detailed=false&pagespeed.screenshot=false&config.timezone=Asia%2FDhaka">
