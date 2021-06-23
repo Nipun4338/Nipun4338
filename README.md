@@ -1,6 +1,7 @@
 <h1 align="center">
   <a href="https://nipun4338.github.io">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi+👋!;I+am+Nipun!;Visit:+nipun4338.github.io...!&center=true&size=20">
+    Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=I+am+Nipun!;Visit:+nipun4338.github.io...!&center=true&size=20">
   </a>
 </h1>
 
