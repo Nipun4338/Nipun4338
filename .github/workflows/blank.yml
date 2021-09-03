@@ -16,30 +16,41 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: Nipun4338
+          user: nipun4338
           template: classic
           base: header, activity, community, repositories, metadata
+          config_display: large
           config_timezone: Asia/Dhaka
           plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_limit: 29
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_gists: yes
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_timestamps: yes
+          plugin_activity_visibility: all
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
           plugin_languages: yes
+          plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent.days: 14
-          plugin_languages_recent.load: 300
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_notable: yes
           plugin_pagespeed: yes
+          plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: .user.website
-          plugin_screenshot: yes
-          plugin_screenshot_title: XKCD of the day  # Section title
-          plugin_screenshot_url: .user.website   # Website url
-          plugin_screenshot_selector: "#comic img"  # CSS selector to take into screenshot
-          plugin_screenshot_background: no          # Remove page background
+          plugin_projects: yes
+          plugin_projects_descriptions: yes
+          plugin_projects_limit: 4
+          plugin_repositories: 100
+          plugin_repositories: yes
+          plugin_repositories_affiliations: owner
+          plugin_repositories_batch: 100
