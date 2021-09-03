@@ -45,6 +45,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_url: .user.website
           plugin_projects: yes
@@ -53,3 +54,4 @@ jobs:
           plugin_repositories: 100
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
+          plugin_repositories_featured: nipun4338/CarHub, nipun4338/imageprocessingapp, nipun4338/mynotebook, nipun4338/Image-Encrypt-Decrypt, nipun4338/Neer, nipun4338/IUMS-Result-Notifier
