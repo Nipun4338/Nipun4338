@@ -5,10 +5,6 @@
   </a>
 </h1>
 
-- 🌱 I’m currently learning Machine Learning 🤖 and Improving Python 🐍🐍
-
-- 👯 Looking to collaborate on Machine Learning 👷 and Data Science 🌎🌎
-
 <!--
 **Nipun4338/Nipun4338** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
