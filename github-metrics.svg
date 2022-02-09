@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            995 Commits
+                            997 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="618.6373998323264" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="618.6373998323264" y="0" width="83.55876025780701" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="702.1961600901335" y="0" width="64.9229769902473" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="767.1191370803808" y="0" width="49.98393432160779" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="817.1030714019886" y="0" width="35.662497095087126" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="852.7655684970758" y="0" width="35.12435348661798" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="887.8899219836939" y="0" width="17.780358974978544" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="905.6702809586724" y="0" width="14.32971904132782" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="618.6360222513107" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="618.6360222513107" y="0" width="83.55857418926047" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="702.1945964405711" y="0" width="64.92283241984046" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="767.1174288604116" y="0" width="49.985871672333474" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="817.1033005327449" y="0" width="35.66241768188161" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="852.7657182146265" y="0" width="35.12427527175" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="887.8899934863765" y="0" width="17.780319381696625" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="905.6703128680732" y="0" width="14.329687131926741" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -2673,6 +2673,48 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
+                                        <div class="sha">#e784b53</div>
+                                        <div class="message">favicon added</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">9 Feb 2022, 11:51:26</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Nipun4338/your-weather</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#9d314ff</div>
+                                        <div class="message">favicon added</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">9 Feb 2022, 11:40:03</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Nipun4338/your-weather</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
                                         <div class="sha">#efdf7e7</div>
                                         <div class="message">404 added</div>
                                     </div>
@@ -2720,48 +2762,6 @@
                                     </div>
                                 </div>
                                 <div class="timestamp">8 Feb 2022, 22:48:10</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Nipun4338/Keeper</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#03d3c74</div>
-                                        <div class="message">responsive done</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">8 Feb 2022, 22:40:41</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Nipun4338/your-weather</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#7213c80</div>
-                                        <div class="message">responsive done</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">8 Feb 2022, 22:39:34</div>
                             </section>
                         </div>
                     </section>
@@ -3159,7 +3159,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 9 Feb 2022, 11:15:19 (timezone Asia/Dhaka) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 9 Feb 2022, 12:20:34 (timezone Asia/Dhaka) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
