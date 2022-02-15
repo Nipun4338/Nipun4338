@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            1026 Commits
+                            1028 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="617.7518568259884" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="617.7518568259884" y="0" width="83.43915081326871" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="701.1910076392571" y="0" width="64.83004357199627" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="766.0210512112534" y="0" width="49.96561768912247" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="815.9866689003759" y="0" width="35.61144833065798" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="851.5981172310339" y="0" width="35.106110256070224" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="886.7042274871042" y="0" width="17.75490743819021" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="904.4591349252943" y="0" width="15.5408650747057" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="617.7303176850143" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="617.7303176850143" y="0" width="83.4362415421556" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="701.1665592271698" y="0" width="64.8277831442332" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="765.994342371403" y="0" width="49.96387553898341" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="815.9582179103865" y="0" width="35.61020666703946" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="851.568424577426" y="0" width="35.10488621206371" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="886.6733107894897" y="0" width="17.75428837820671" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="904.4275991676965" y="0" width="15.572400832303646" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -2658,6 +2658,27 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Nipun4338/beyond-earth</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#cfda766</div>
+                                        <div class="message">testing</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">15 Feb 2022, 10:55:21</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
                                         <path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"/>
                                     </svg>
@@ -2733,27 +2754,6 @@
                                     </div>
                                 </div>
                                 <div class="timestamp">14 Feb 2022, 13:34:18</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Nipun4338/beyond-earth-server</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#fe4e19b</div>
-                                        <div class="message">only apod</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">14 Feb 2022, 13:27:46</div>
                             </section>
                         </div>
                     </section>
@@ -3151,7 +3151,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 15 Feb 2022, 10:22:01 (timezone Asia/Dhaka) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 15 Feb 2022, 11:16:01 (timezone Asia/Dhaka) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
