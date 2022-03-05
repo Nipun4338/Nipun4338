@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            1031 Commits
+                            1033 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="606.992415991364" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="606.992415991364" y="0" width="81.40194747287178" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="688.3943634642358" y="0" width="64.76096731430884" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="753.1553307785446" y="0" width="50.576537062998" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="803.7318678415426" y="0" width="44.62338129650809" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="848.3552491380507" y="0" width="34.74197925303102" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="883.0972283910817" y="0" width="19.040544188725054" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="902.1377725798068" y="0" width="17.862227420193165" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="607.0992305443865" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="607.0992305443865" y="0" width="81.37416887235638" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="688.4733994167428" y="0" width="64.73886748628428" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="753.2122669030272" y="0" width="50.55927770419711" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="803.7715446072243" y="0" width="44.60815346571086" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="848.3796980729352" y="0" width="34.73012347325246" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="883.1098215461876" y="0" width="19.034046559527784" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="902.1438681057155" y="0" width="17.856131894284694" height="8" fill="#555555"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -2678,6 +2678,48 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Nipun4338/mess-managing</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#c51a740</div>
+                                        <div class="message">üpdated ui and tables</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">6 Mar 2022, 03:40:30</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">Nipun4338/mess-managing</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#a3637c6</div>
+                                        <div class="message">üpdated ui and tables</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">6 Mar 2022, 03:38:43</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
                                     </svg>
                                     <div class="content">
@@ -2729,48 +2771,6 @@
                                     </div>
                                 </div>
                                 <div class="timestamp">4 Mar 2022, 13:34:24</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Nipun4338/mess-managing</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#6561683</div>
-                                        <div class="message">Add final</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">4 Mar 2022, 12:48:56</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">Nipun4338/mess-managing</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#ab5e4fc</div>
-                                        <div class="message">update database</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">4 Mar 2022, 05:18:17</div>
                             </section>
                         </div>
                     </section>
@@ -2827,7 +2827,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="112.11666666666667 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="113.14999999999999 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -2849,7 +2849,7 @@
                                     <span class="prefix">Great</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 417 times</div>
+                                <div class="text">Repositories have been deployed 419 times</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -3207,7 +3207,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 6 Mar 2022, 03:14:54 (timezone Asia/Dhaka) with lowlighter/metrics@3.21.0</span>
+                <span>Last updated 6 Mar 2022, 04:17:04 (timezone Asia/Dhaka) with lowlighter/metrics@3.21.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
