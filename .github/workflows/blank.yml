@@ -1,11 +1,13 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+# GitHub Metrics - Tested and Working Configuration
 name: Metrics
 on:
-  # Schedule updates (twice daily to save Actions minutes)
-  schedule: [{cron: "0 0,12 * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  # Schedule updates (once daily at midnight UTC)
+  schedule: [{cron: "0 0 * * *"}]
+  # Manual trigger
   workflow_dispatch:
+  # Trigger on push to main/master
   push: {branches: ["master", "main"]}
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -17,18 +19,17 @@ jobs:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           
-          # Base options
+          # Basic config
           user: nipun4338
           template: classic
           base: header, activity, community, repositories, metadata
-          config_display: large
           config_timezone: Asia/Dhaka
+          config_output: default
           
           # Achievements plugin
           plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_limit: 29
-          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 10
           plugin_achievements_threshold: C
           
           # Activity plugin
@@ -36,47 +37,15 @@ jobs:
           plugin_activity_days: 14
           plugin_activity_filter: all
           plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_timestamps: yes
           plugin_activity_visibility: all
           
-          # ISO Calendar plugin
+          # ISO Calendar (contribution calendar)
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
           
           # Languages plugin
           plugin_languages: yes
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
+          plugin_languages_colors: github
           plugin_languages_threshold: 0%
-          
-          # PageSpeed plugin (disabled by default - enable if you have a website)
-          # Uncomment and set your website URL if needed
-          # plugin_pagespeed: yes
-          # plugin_pagespeed_detailed: yes
-          # plugin_pagespeed_screenshot: yes
-          # plugin_pagespeed_url: https://your-website.com
-          
-          # Projects plugin
-          plugin_projects: yes
-          plugin_projects_descriptions: yes
-          plugin_projects_limit: 4
-          
-          # Repositories plugin (reduced from 100 to 50 for faster execution)
-          plugin_repositories: 50
-          plugin_repositories_affiliations: owner
-          plugin_repositories_batch: 100
-          
-          # Additional useful plugins (optional - uncomment to enable)
-          # plugin_lines: yes
-          # plugin_lines_sections: base
-          # plugin_habits: yes
-          # plugin_habits_charts: yes
-          # plugin_habits_days: 14
-          # plugin_habits_facts: yes
-          # plugin_habits_from: 200
