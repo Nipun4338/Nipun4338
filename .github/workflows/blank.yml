@@ -52,11 +52,9 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: most-used
           plugin_languages_colors: github
           plugin_languages_threshold: 2%
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 500
 
       # ⚡ Coding Habits & Streak
       - name: 💪 Generate Habits & Productivity
@@ -68,11 +66,9 @@ jobs:
           base: ""
           plugin_habits: yes
           plugin_habits_charts: yes
-          plugin_habits_days: 30
+          plugin_habits_days: 14
           plugin_habits_facts: yes
-          plugin_habits_from: 500
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
+          plugin_habits_from: 200
           config_timezone: Asia/Dhaka
 
       # 📈 Lines of Code Counter
@@ -160,5 +156,6 @@ jobs:
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: current-year
-          plugin_skyline_frames: 60
-          plugin_skyline_quality: 1
+          plugin_skyline_frames: 30
+          plugin_skyline_quality: 0.5
+          plugin_skyline_compatibility: yes
