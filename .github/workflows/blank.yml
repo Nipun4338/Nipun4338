@@ -1,11 +1,8 @@
-# GitHub Metrics - Tested and Working Configuration
+# 🚀 Super Cool GitHub Metrics - Ultimate Profile Stats
 name: Metrics
 on:
-  # Schedule updates (once daily at midnight UTC)
-  schedule: [{cron: "0 0 * * *"}]
-  # Manual trigger
+  schedule: [{cron: "0 */6 * * *"}]  # Every 6 hours
   workflow_dispatch:
-  # Trigger on push to main/master
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -14,38 +11,154 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # 🎨 Main Metrics Card - The Showstopper
+      - name: 🎯 Generate Main Metrics
+        uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          
-          # Basic config
           user: nipun4338
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Dhaka
-          config_output: default
+          config_display: large
+          config_animations: yes
           
-          # Achievements plugin
+          # 🏆 Epic Achievements
           plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 10
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
           
-          # Activity plugin
+          # 📊 Contribution Calendar (Heatmap Style)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          
+          # 💬 Activity Feed
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
           plugin_activity_limit: 5
-          plugin_activity_visibility: all
-          
-          # ISO Calendar (contribution calendar)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          
-          # Languages plugin
+          plugin_activity_timestamps: yes
+
+      # 🔥 Language Stats - Colorful Edition
+      - name: 🌈 Generate Language Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
           plugin_languages: yes
+          plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_colors: github
-          plugin_languages_threshold: 0%
+          plugin_languages_threshold: 2%
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 500
+
+      # ⚡ Coding Habits & Streak
+      - name: 💪 Generate Habits & Productivity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_from: 500
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          config_timezone: Asia/Dhaka
+
+      # 📈 Lines of Code Counter
+      - name: 📝 Generate Code Lines Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.lines.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: repositories
+          plugin_lines: yes
+          plugin_lines_sections: base, repositories
+          plugin_lines_repositories_limit: 10
+
+      # 🎭 Notable Contributions
+      - name: ⭐ Generate Notable Contributions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
+
+      # 🔌 Followup - Issues & PRs
+      - name: 🎯 Generate Issue & PR Tracking
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+
+      # 🌟 Stargazers & Community
+      - name: ✨ Generate Stargazers Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: chartist
+          plugin_stargazers_worldmap: yes
+
+      # 🎲 Reactions & Gists
+      - name: 🎪 Generate Reactions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+
+      # 🏅 Featured Repositories Showcase
+      - name: 🚀 Generate Featured Repos
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
+          repositories: 100
+          repositories_affiliations: owner
+          plugin_repositories: yes
+          plugin_repositories_featured: nipun4338/CarHub, nipun4338/imageprocessingapp, nipun4338/mynotebook, nipun4338/Image-Encrypt-Decrypt, nipun4338/Neer, nipun4338/IUMS-Result-Notifier
+
+      # 🎨 Skyline 3D Contribution Graph
+      - name: 🌃 Generate 3D Skyline
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.skyline.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nipun4338
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: current-year
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 1
