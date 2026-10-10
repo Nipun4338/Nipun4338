@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 278" width="900" height="278" role="img" aria-label="Competitive programming: 1,200+ problems solved across 15 online judges, 128 rated contests, peak Codeforces rating 1377">
+  <title>Competitive programming: 1,200+ problems solved across 15 judges; 128 rated contests; peak Codeforces rating 1377</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .h { font-size: 15px; font-weight: 600; }
+    .sub { font-size: 12px; fill: #6e7681; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .value { font-size: 30px; font-weight: 700; font-family: Georgia, "Times New Roman", serif; }
+    .label { font-size: 12.5px; fill: #9198a1; }
+    .tick { font-size: 11px; fill: #6e7681; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .peak { font-size: 12px; font-weight: 600; }
+    .draw { stroke-dasharray: 2400; stroke-dashoffset: 2400; animation: draw 2.2s 0.3s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .draw { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <rect x="1" y="1" width="898" height="276" rx="12" fill="#161b22" stroke="#30363d"/>
+  <text x="28" y="38" class="h">Competitive programming</text>
+  <text x="470" y="38" class="h">Codeforces rating</text>
+  <text x="870" y="38" text-anchor="end" class="sub">82 contests · 2018–2023</text>
+  <text x="28" y="92" class="value">1,200+</text><text x="28" y="114" class="label">problems · 15 online judges</text>
+  <text x="230" y="92" class="value">128</text><text x="230" y="114" class="label">rated contests</text>
+  <text x="28" y="172" class="value">1377</text><text x="28" y="194" class="label">peak Codeforces · Pupil</text>
+  <text x="230" y="172" class="value">1735</text><text x="230" y="194" class="label">Toph rating</text>
+  <line x1="470" x2="870" y1="210.0" y2="210.0" stroke="#21262d"/><text x="462" y="214.0" text-anchor="end" class="tick">600</text>
+  <line x1="470" x2="870" y1="150.0" y2="150.0" stroke="#21262d"/><text x="462" y="154.0" text-anchor="end" class="tick">1000</text>
+  <line x1="470" x2="870" y1="90.0" y2="90.0" stroke="#21262d"/><text x="462" y="94.0" text-anchor="end" class="tick">1400</text>
+  <path d="M470.0 93.4 L470.3 110.5 L471.5 118.1 L471.7 133.7 L474.3 147.4 L510.0 161.6 L512.3 167.7 L512.8 181.3 L513.4 178.2 L515.5 169.2 L516.1 150.0 L516.5 154.3 L516.7 163.2 L517.2 176.9 L519.0 190.3 L522.0 175.5 L522.4 170.8 L523.4 160.2 L524.1 158.1 L524.5 169.1 L525.5 163.1 L526.4 157.1 L527.4 162.3 L528.9 150.3 L529.3 156.0 L530.6 151.5 L531.0 147.4 L531.4 141.1 L533.7 142.5 L536.6 146.1 L537.0 145.6 L542.3 160.8 L543.1 148.9 L543.7 136.3 L544.1 124.4 L545.4 126.4 L545.8 127.2 L550.2 127.2 L550.6 125.7 L551.0 126.1 L552.9 126.3 L553.4 137.7 L554.8 139.9 L555.4 124.4 L556.1 120.8 L574.9 130.3 L576.2 136.9 L578.1 117.9 L579.3 120.0 L580.4 123.5 L581.4 120.9 L584.5 127.3 L585.6 134.7 L586.0 134.8 L586.4 122.3 L586.6 114.2 L587.1 108.1 L588.3 108.8 L588.7 125.3 L589.4 115.0 L590.4 110.1 L592.1 98.6 L593.1 111.6 L606.5 119.0 L607.3 128.1 L608.0 123.0 L609.0 127.2 L609.2 123.6 L610.5 128.8 L610.9 137.9 L611.3 144.4 L621.7 136.1 L731.0 134.7 L731.4 136.8 L731.9 139.4 L734.8 127.0 L735.2 135.3 L736.7 136.8 L785.9 143.8 L865.2 142.8 L868.1 145.1 L870.0 140.3 L870.0 210 L470 210 Z" fill="#28a99b" opacity="0.1"/>
+  <path class="draw" d="M470.0 93.4 L470.3 110.5 L471.5 118.1 L471.7 133.7 L474.3 147.4 L510.0 161.6 L512.3 167.7 L512.8 181.3 L513.4 178.2 L515.5 169.2 L516.1 150.0 L516.5 154.3 L516.7 163.2 L517.2 176.9 L519.0 190.3 L522.0 175.5 L522.4 170.8 L523.4 160.2 L524.1 158.1 L524.5 169.1 L525.5 163.1 L526.4 157.1 L527.4 162.3 L528.9 150.3 L529.3 156.0 L530.6 151.5 L531.0 147.4 L531.4 141.1 L533.7 142.5 L536.6 146.1 L537.0 145.6 L542.3 160.8 L543.1 148.9 L543.7 136.3 L544.1 124.4 L545.4 126.4 L545.8 127.2 L550.2 127.2 L550.6 125.7 L551.0 126.1 L552.9 126.3 L553.4 137.7 L554.8 139.9 L555.4 124.4 L556.1 120.8 L574.9 130.3 L576.2 136.9 L578.1 117.9 L579.3 120.0 L580.4 123.5 L581.4 120.9 L584.5 127.3 L585.6 134.7 L586.0 134.8 L586.4 122.3 L586.6 114.2 L587.1 108.1 L588.3 108.8 L588.7 125.3 L589.4 115.0 L590.4 110.1 L592.1 98.6 L593.1 111.6 L606.5 119.0 L607.3 128.1 L608.0 123.0 L609.0 127.2 L609.2 123.6 L610.5 128.8 L610.9 137.9 L611.3 144.4 L621.7 136.1 L731.0 134.7 L731.4 136.8 L731.9 139.4 L734.8 127.0 L735.2 135.3 L736.7 136.8 L785.9 143.8 L865.2 142.8 L868.1 145.1 L870.0 140.3" fill="none" stroke="#28a99b" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="470.0" cy="93.4" r="4.5" fill="#28a99b" stroke="#161b22" stroke-width="2"/>
+  <text x="479.0" y="86.4" class="peak">Peak 1377</text>
+  <text x="470" y="230" class="tick">2018</text><text x="870" y="230" text-anchor="end" class="tick">2023</text>
+  <text x="28" y="260" class="sub">Updated October 2026 · Codeforces, AtCoder, UVa, Toph, CodeChef, LeetCode and more</text>
+</svg>

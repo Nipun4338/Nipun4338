@@ -1,0 +1,27 @@
+# Rebuilds the competitive-programming card from live judge stats (daily)
+name: CP card
+on:
+  schedule: [{cron: "30 0 * * *"}]  # daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/cp-card.js", ".github/workflows/cp-card.yml"]
+
+jobs:
+  cp-card:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/cp-card.js
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cp-card-*.svg
+          git diff --cached --quiet || git commit -m "Update competitive programming card"
+          git push
